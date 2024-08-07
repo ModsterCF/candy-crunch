@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const personElement = document.getElementById('person');
-    const persons = ['Jorge', 'Enevy'];
+    const persons = ['Enevy', 'Jorge'];
     
     const startDate = new Date('2024-08-06');
     const today = new Date();
