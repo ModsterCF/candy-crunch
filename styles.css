@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    position: relative; 
 }
 
 .container {
@@ -22,4 +23,30 @@ h1 {
 
 #person {
     font-weight: bold;
+}
+
+.corner {
+    position: absolute;
+    width: 250px; 
+    height: 250px; 
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
 }
